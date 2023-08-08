@@ -18,3 +18,16 @@ footer{
         text-align: center;
         padding: 5px;
 }
+.container{
+    display: flex;
+    border-style:solid;
+    border-style:black;
+}
+.texto{
+    flex: 1;
+    padding: 5%;
+}
+.imagem{
+    flex: 2;
+    text-aling: left;
+}
