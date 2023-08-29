@@ -1,5 +1,7 @@
 body{
     background-color: rgb(245, 209, 195);
+    font-family: Arial,Raleway;
+    font-size: 16px;
  }
  img{width: 500px}
  header{ 
@@ -29,5 +31,14 @@ footer{
 }
 .imagem{
     flex: 2;
-    text-aling: left;
+    text-aling:left;
+    max-width: 100%;
+    margin:0 auto;
+    display: block;
+}
+a:hover{
+    color: crimson;
+}
+a{
+    transition: color 0.3s ease;
 }
