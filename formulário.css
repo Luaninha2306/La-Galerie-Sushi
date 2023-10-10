@@ -1,0 +1,37 @@
+h2{
+    font-size: 30px;
+    margin-top: 30px;
+    color: black; 
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:rgb(0, 0, 0)
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="sunmit"] {
+    background-color: aliceblue;
+    color: darksalmon;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
